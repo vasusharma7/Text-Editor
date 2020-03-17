@@ -1,0 +1,6 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>MANUAL FOR USING TEXT EDITOR<<<<<<<<<<<<<<<<<<<<<<<;
+All the functions are same as usual text editor except a few....;
+At any point of time, if you get stuck, press F1 key to open help menu...;
+To copy/cut a word, move to the starring of the word and press Ctrl + C/X key...;
+To copy/cut a line, move to the ending of the line and press Ctrl + C/X...;
+To paste press..Ctrl+V key;

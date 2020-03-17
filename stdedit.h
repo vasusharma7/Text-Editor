@@ -1,0 +1,26 @@
+#include<curses.h>
+int add_char(char,int,int);
+int add_line(int);
+void display(int);
+void initialise();
+void save(char *);
+int backspace(int ,int );
+int getwidth(int);
+int readfile(int);
+void line_num();
+char* dict(int);
+WINDOW *create_newwin(int, int, int, int);
+void destroy_win(WINDOW *);
+void printopt(WINDOW *, char**,int,int);
+void master_menu();
+char* line_copy(int);
+void options();
+void destroy();
+char* get_word(FILE *);
+void find_replace(int);
+void self_destruct();
+char* word_copy(int,int);
+char* line_cut(int y);
+char* word_cut(int,int);
+void goto_line();
+int read_chunck();
