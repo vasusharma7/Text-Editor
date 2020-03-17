@@ -1,0 +1,71 @@
+<?php
+
+$name = $_POST['Name'];
+$uid = $_POST['UID'];
+$pc = $_POST['PC'];
+$desc = $_POST['desc'];
+
+
+//databAase connection
+
+if(!$connect){
+  $connect =  mysqli_connect('127.0.0.1','root','justkidding');
+  echo "Coooection failed";
+}
+if(!mysqli_select_db($connect,'info')){
+  echo "database not selected";
+}
+  $stmt = $connect->prepare("insert into register(Name,UID,PC,More) values(?,?,?,?)" );
+  $stmt->bind_param("siss",$name,$uid,$pc,$desc);
+  $stmt->execute();
+  echo "Updated !!";
+  $stmt->close();
+  $connect->close();
+}
+
+
+?>
+
+
+
+
+
+
+
+
+<!DOCTYPE html >
+<html lang="en" dir="ltr" >
+  <head>
+    <meta charset="utf-8">
+    <title>VS TECH</title>
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+    <div class="form">
+      <h1>PC.COM</h1>
+
+    <form action="main.php" method="post">
+
+    <div class="textbox">
+      <input type="text" name="Name" placeholder="Name">
+    </div>
+
+    <div class="textbox">
+    <input type="text" name="UID" placeholder="Unique Identity No.">
+</div>
+    <div class="textbox">
+      <i class="fas fa-desktop"></i>
+      <input type="text" name="PC" placeholder="PC INFO">
+    </div>
+    <div class="textbox">
+    <input type="text" name="desc" placeholder="Give Description of problem">
+    </div>
+    <input class = "btn" type="submit" name="submit" value="submit">
+    </form>
+
+    </div>
+  </body>
+</html>
+
