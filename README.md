@@ -1,6 +1,7 @@
 # Text Editor
 
 A C based text-editor built with ncurses library.
+  
 Data structures used - list,stack.
 
 ## Usage
