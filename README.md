@@ -1,6 +1,7 @@
 # Text Editor
 
-A C based text-editor built with ncurses library.Data structures used - list,stack.
+A C based text-editor built with ncurses library.
+Data structures used - list,stack.
 
 ## Usage
 
@@ -27,14 +28,18 @@ make
 	READ LARGE FILES...USING CHUNKS (TESTED UPTO 15 MB OF TEXT FILE - 80,000 LINES)
 ## Screenshots
 
-![](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(479).png)
+![How to Run ?](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(479).png)
 
-![](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(480).png)
+![Initial Screen](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(480).png)
 
-![](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(481).png)
+![All Available Options](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(481).png)
+
+![Suggestions](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(482).png)
+
+![Goto Line Number](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(483).png)
+
 
 
 ## Contributing
 Pull requests are welcome. 
-Please make sure to update tests as appropriate.
 
