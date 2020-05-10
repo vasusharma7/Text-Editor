@@ -1,0 +1,40 @@
+# Text Editor
+
+A C based text-editor built with ncurses library.Data structures used - list,stack.
+
+## Usage
+
+
+
+```bash
+make 
+./text_editor
+```
+## Features
+    CREATING FILES
+	SAVING FILES 
+	READING FROM FILES
+	EDITING FILES
+	CUT/COPY WORDS <manual>
+	CUT/COPY LINES <manual>
+	SEARCH WORDS
+	REPLACE WORDS
+	GOTO LINE NO.
+	SUGGESITIONS FOR A PARTICULAR WORD BEING TYPED
+	UNDO/REDO  <beta>
+	MOUSE MODE/KEYBOARD MODE
+	NICE UI INTERFACE
+	READ LARGE FILES...USING CHUNKS (TESTED UPTO 15 MB OF TEXT FILE - 80,000 LINES)
+## Screenshots
+
+![](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(479).png)
+
+![](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(480).png)
+
+![](https://github.com/vasusharma7/Text-Editor/blob/master/screenshots/Screenshot%20(481).png)
+
+
+## Contributing
+Pull requests are welcome. 
+Please make sure to update tests as appropriate.
+
